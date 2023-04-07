@@ -10,7 +10,7 @@ if getgenv().library then
 getgenv().library:Unload()
 end
 
-local library = {tabs = {}, draggable = true, flags = {}, title = 'ars.red', open = false, mousestate = true, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = 'ars_configs', fileext = '.ars'}
+local library = {tabs = {}, draggable = true, flags = {}, title = 'trqs elevator.', open = false, mousestate = true, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = 'trqs_elevator_configs', fileext = '.txt'}
 getgenv().library = library
 
 --Locals
